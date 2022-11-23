@@ -1,0 +1,38 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  background: url(/assets/images/login_bg.jpg) no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.signBox{
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+  margin: 100px auto;
+}
+.title {
+  height: 60px;
+  background: url(/assets/images/login_title.png) no-repeat center;
+}
+.register{
+  display: none;
+}
+.layui-form{
+  padding: 0 30px;
+}
+.linka{
+  text-align: right;
+}
+.layui-form-item{
+  position: relative;
+}
+.layui-icon{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.layui-input{
+  padding-left: 32px;
+}
